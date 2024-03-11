@@ -231,10 +231,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* *********** Banner Css *********** */
-/*.banner {
+.banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  background-image: url('./assets/img/anamit.jpeg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -298,7 +298,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
-} /*
+}
 
 *********** Skills Css ***********
 /* .skill {
