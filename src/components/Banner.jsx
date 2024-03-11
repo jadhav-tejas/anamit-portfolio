@@ -35,10 +35,10 @@ export const Banner = () => {
       setDelta((prevDelta) => prevDelta / 2);
     }
 
-    if (!isDeleting && updatedText === "") {
-      setIsDeleting(false);
-      setLoopNum(LoopNum + 1);
-      setDelta(500);
+    if (!isDeleting && updatedText === fullText) {
+      setIsDeleting(true);
+      setIndex((prevIndex) => prevIndex - 1);
+      setDelta(period);
     } else if (isDeleting && updatedText === "") {
       setIsDeleting(false);
       setLoopNum(LoopNum + 1);
@@ -48,6 +48,7 @@ export const Banner = () => {
       setIndex((prevIndex) => prevIndex + 1);
     }
   };
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -73,9 +74,6 @@ export const Banner = () => {
             <button onClick={() => console.log("connect")}>
               Let's Connect <ArrowRightCircle size={25} />
             </button>
-          </Col>
-          <Col xs={12} md={6} xl={5}>
-            <img src={""} alt="header img" />
           </Col>
         </Row>
       </Container>
