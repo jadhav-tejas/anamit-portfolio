@@ -81,7 +81,7 @@ export const NavBar = () => {
             </div>
           </span>
           <button className="vvd" onClick={() => console.log("let us connect")}>
-            <span>Let's Connect</span>
+            <span>Let us Connect</span>
           </button>
         </Navbar.Collapse>
       </Container>
