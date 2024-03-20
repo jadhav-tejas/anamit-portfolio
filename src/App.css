@@ -301,7 +301,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 *********** Skills Css ***********
-/* .skill {
+.skill {
   padding: 0 0 50px 0;
   position: relative;
 }
@@ -338,7 +338,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   width: 40%;
   z-index: -4;
-} /*
+} 
 
 *********** Projects Css ***********
 /*.project {
